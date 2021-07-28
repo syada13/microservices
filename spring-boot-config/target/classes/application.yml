@@ -1,0 +1,23 @@
+my:
+ greeting: Hello world
+ counting:
+  list:
+   values: One,two,three,four,five
+   
+   
+server:
+ port: 8081
+ 
+app:
+ name: SpringConfig
+ description: Welcome to ${app.name}
+
+db:
+ values: "{connectionString:'http://_',userName: 'syadav', password: 'pass'}"
+ connections: "Dev connection string"
+ host: 127.0.0.1
+ port: 1299
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: 'test'

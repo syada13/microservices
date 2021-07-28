@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "db",
+      "type": "com.suresh.springbootconfig.resources.DatabaseSettings",
+      "sourceType": "com.suresh.springbootconfig.resources.DatabaseSettings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "db.connections",
+      "type": "java.lang.String",
+      "sourceType": "com.suresh.springbootconfig.resources.DatabaseSettings"
+    },
+    {
+      "name": "db.host",
+      "type": "java.lang.String",
+      "sourceType": "com.suresh.springbootconfig.resources.DatabaseSettings"
+    },
+    {
+      "name": "db.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.suresh.springbootconfig.resources.DatabaseSettings"
+    }
+  ],
+  "hints": []
+}
