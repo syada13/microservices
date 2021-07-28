@@ -1,0 +1,15 @@
+my:
+ greeting: Hello world from config server
+ counting:
+  list:
+   values: One,two,three,four,five
+   
+   
+server:
+ port: 8888
+
+db:
+ values: "{connectionString:'http://_',userName: 'syadav', password: 'pass'}"
+ connections: "connection-string-starting-from-git"
+ host: 127.0.0.1
+ port: 1300
